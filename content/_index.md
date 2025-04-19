@@ -1,5 +1,5 @@
 ---
-title: Letenkov.ru
+title: Letekov
 toc: false
 ---
 
