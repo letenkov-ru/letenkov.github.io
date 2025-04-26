@@ -74,6 +74,15 @@ params:
     width: normal
   displayUpdatedDate: true
   dateFormat: "2 January 2006"
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
   editURL:
     enable: true
     base: "https://github.com/letenkov-ru/website/edit/main/content"
