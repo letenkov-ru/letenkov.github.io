@@ -46,6 +46,20 @@ menu:
       url: "https://letenkov.t.me"
       params:
         icon: telegram
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+    - identifier: resume
+      name: "Resume ↗"
+      url: "https://hh.ru"
+      weight: 3
 params:
   navbar:
     displayTitle: true
