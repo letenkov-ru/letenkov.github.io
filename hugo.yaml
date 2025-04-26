@@ -29,32 +29,23 @@ markup:
     noClasses: false
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - identifier: blog
+      name: Blog
+      pageRef: /blog
       weight: 1
-    - name: About
+    - identifier: about
+      name: About
       pageRef: /about
       weight: 2
-    - name: Resume
-      pageRef: /resume
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/letenkov"
-      weight: 3
     - name: Search
-      weight: 4
+      weight: 3
       params:
         type: search
-    - name: GitHub
+    - name: Telegram
       weight: 5
-      url: "https://github.com/letenkov"
+      url: "https://letenkov.t.me"
       params:
-        icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/letenkov"
-      params:
-        icon: x-twitter
+        icon: telegram
 params:
   navbar:
     displayTitle: true
