@@ -1,22 +1,15 @@
 # Hugo configuration file
 baseURL: "https://letenkov.ru/"
 title: Letenkov
-
-# import hextra as module
 module:
   imports:
     - path: github.com/letenkov-ru/hextra
-
 markup:
-  # allow raw html
   goldmark:
     renderer:
       unsafe: true
-
-  # enable hextra syntax highlight
   highlight:
     noClasses: false
-
 menu:
   main:
     - name: Docs
@@ -45,16 +38,13 @@ menu:
       url: "https://twitter.com/letenkov"
       params:
         icon: x-twitter
-
 params:
   navbar:
     displayTitle: true
     displayLogo: false
-
   footer:
     displayCopyright: false
     displayPoweredBy: true
-
   editURL:
     enable: true
     base: "https://github.com/letenkov-ru/website/edit/main/content"
