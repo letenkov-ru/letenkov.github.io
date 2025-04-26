@@ -86,3 +86,11 @@ params:
   editURL:
     enable: true
     base: "https://github.com/letenkov-ru/website/edit/main/content"
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+    article:
+      displayPagination: true
