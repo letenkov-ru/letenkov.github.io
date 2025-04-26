@@ -4,6 +4,10 @@ title: Letenkov
 enableRobotsTXT: true
 enableGitInfo: true
 hasCJKLanguage: true
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
 module:
   imports:
     - path: github.com/letenkov-ru/hextra
