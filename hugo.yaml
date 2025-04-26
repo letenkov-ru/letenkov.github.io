@@ -64,6 +64,10 @@ params:
   navbar:
     displayTitle: true
     displayLogo: false
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
   footer:
     displayCopyright: false
     displayPoweredBy: true
