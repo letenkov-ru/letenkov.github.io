@@ -72,6 +72,8 @@ params:
     displayCopyright: true
     displayPoweredBy: false
     width: normal
+  displayUpdatedDate: true
+  dateFormat: "2 January 2006"
   editURL:
     enable: true
     base: "https://github.com/letenkov-ru/website/edit/main/content"
