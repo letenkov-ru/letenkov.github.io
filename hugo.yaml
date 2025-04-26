@@ -69,8 +69,9 @@ params:
     default: system
     displayToggle: true
   footer:
-    displayCopyright: false
-    displayPoweredBy: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
   editURL:
     enable: true
     base: "https://github.com/letenkov-ru/website/edit/main/content"
