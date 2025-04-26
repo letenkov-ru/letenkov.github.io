@@ -10,6 +10,8 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 </div>
 
-You are on my personal page...
-
-<div class="hx:mt-6"></div>
+<div class="hx-mt-6 hx-mb-6">
+{{< hextra/hero-subtitle >}}
+  👋 Welcome to my space...
+{{< /hextra/hero-subtitle >}}
+</div>
