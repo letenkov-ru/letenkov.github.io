@@ -4,7 +4,7 @@ title: Letenkov
 # import hextra as module
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/letenkov-io/hextra
 
 markup:
   # allow raw html
