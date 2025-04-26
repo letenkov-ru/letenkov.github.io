@@ -24,8 +24,11 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
+    - name: Resume
+      pageRef: /resume
+      weight: 2
     - name: Contact ↗
-      url: "https://github.com/letenkov-ru"
+      url: "https://github.com/letenkov"
       weight: 3
     - name: Search
       weight: 4
@@ -33,12 +36,12 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/letenkov-ru/website"
+      url: "https://github.com/letenkov"
       params:
         icon: github
     - name: Twitter
       weight: 6
-      url: "https://twitter.com/"
+      url: "https://twitter.com/letenkov"
       params:
         icon: x-twitter
 

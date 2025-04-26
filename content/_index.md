@@ -8,10 +8,10 @@ This is the landing page.
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
   {{< card link="about" title="About" icon="user" >}}
+  {{< card link="resume" title="Resume" icon="book-open" >}}
 {{< /cards >}}
 
-## Documentation
+## Contact
 
-For more information, visit [Docs](/docs).
+For more information, visit [Github](https://github.com/letenkov).
