@@ -1,15 +1,15 @@
 ---
-title: Летенков
+title: Letenkov
 toc: false
 layout: hextra-home
 ---
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  Евгений Летенков
+  Evgeny Letenkov
 {{< /hextra/hero-headline >}}
 </div>
 
-Вы на моей персонольной странице...
+You are on my personal page...
 
 <div class="hx:mt-6"></div>
