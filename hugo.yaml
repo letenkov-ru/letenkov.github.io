@@ -1,4 +1,5 @@
 # Hugo configuration file
+baseURL: "https://letenkov.ru/"
 title: Letenkov
 
 # import hextra as module
